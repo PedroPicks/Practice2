@@ -1,0 +1,85 @@
+body {
+    background-color: #fe9eaf;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* text-shadow: #646161 3px 4px; */
+}
+
+.container {
+    margin-left: 3rem;
+    font-weight: bold; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+}
+
+.name {
+    font-size: 2rem;
+    color: #d8da97;
+    text-shadow: #353434 2px 2px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-right: 3rem; 
+}
+
+.first, .second, .third {
+    margin-right: 5rem; 
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middlecontainer {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items:flex-start; /* Align items to the top */
+    padding: 2rem; /* Optional: Add padding around the container */
+}
+
+.middleleft {
+    font-size: 10rem;
+    color: #d8da97;
+    font-weight: bold;
+    margin: 0; /* Remove margin to avoid shifting */
+    text-align: center; /* Center text horizontally */
+    text-shadow: #353434 3px 4px;
+}
+
+.class {
+    font-size: 1.5rem;
+    margin-top: 1rem; /* Adds space below .middle */
+    text-align: center; /* Center text horizontally */
+    text-shadow: #353434 1px 1px;
+}
+
+.middleright {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the image horizontally */
+    margin-top: 2rem; /* Adds space above the image */
+    
+}
+.inom {
+    background-color: #d8da97;
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: #353434 1px 1px;
+}
